@@ -9,7 +9,7 @@ Pick your door:
 
 ## 1. Designer (设计师) — use it inside Revit
 
-1. Install the Revit add-in with one PowerShell line: see [revit-bridge-addin → Install](https://github.com/revitbridge/revit-bridge-addin#install).
+1. Install the Revit add-in with one PowerShell line (Revit 2020, 2021, 2023-2026; every installed year gets its own install): see [revit-bridge-addin → Install](https://github.com/revitbridge/revit-bridge-addin#install).
 2. In Revit, click **Revit MCP Switch** on the ribbon.
 3. Open the demo host and pair: see [revit-bridge-web → Install](https://github.com/revitbridge/revit-bridge-web#install).
 
@@ -24,7 +24,7 @@ Pick your door:
 
 1. `uvx revit-bridge` is the MCP server; `pip install revit-bridge` gives you the Python API. Docs: [revit-bridge → Use](https://github.com/revitbridge/revit-bridge#use).
 2. Self-host the demo web app: `docker compose up`, see [revit-bridge-web → Install](https://github.com/revitbridge/revit-bridge-web#install).
-3. Optional Revit API reference for weaker models: `uvx revit-api-docs`, see [revit-api-docs](https://github.com/revitbridge/revit-api-docs#install).
+3. Optional Revit API reference for weaker models (data set: Revit 2026 only): `uvx revit-api-docs`, see [revit-api-docs](https://github.com/revitbridge/revit-api-docs#install).
 
 ## Repositories
 
